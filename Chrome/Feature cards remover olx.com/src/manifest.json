@@ -4,10 +4,7 @@
   "manifest_version": 3,
   "version": "0.1",
   "description": "Feature cards remover in olx.com.pk",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
+  "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   }
