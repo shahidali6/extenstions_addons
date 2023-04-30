@@ -1,9 +1,9 @@
 {
-  "name": "Olx Feature cards remover",
+  "name": "Table Extractor on page",
   "action": {},
   "manifest_version": 3,
   "version": "0.1",
-  "description": "Feature cards remover in olx.com.pk",
+  "description": "Top Keyword table extrator in Fiverr.com plus user",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
