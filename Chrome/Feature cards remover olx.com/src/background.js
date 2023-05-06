@@ -5,7 +5,8 @@ function feature_card_remover() {
   let remainig_cards = 0
   //document.body.style.backgroundColor = 'blue';
   //Change the color of the background to check the extension is working fine.
-  document.getElementsByTagName('body')[0].style.background = '#'+Math.floor(Math.random()*16777215).toString(16)
+  document.getElementsByTagName('body')[0].style.background =
+    '#' + Math.floor(Math.random() * 16777215).toString(16)
 
   var totalLists = document.getElementsByTagName('ul')
   for (let listIndex = 0; listIndex < totalLists.length; listIndex++) {
